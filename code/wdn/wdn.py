@@ -53,11 +53,8 @@ for i, column in enumerate(['x', 'y', 'w', 'h']):
     marking[column] = bboxs[:,i]
 marking.drop(columns=['bbox'], inplace=True)
 
-
-
-
 def convertTrainLabel():
-    df = pd.read_csv('../input/global-wheat-detection/train.csv')
+    df = pd.read_csv('/train.csv')
     bboxs = np.stack(df['bbox'].apply(lambda x: np.fromstring(x[1:-1], sep=',')))
     for i, column in enumerate(['x', 'y', 'w', 'h']):
         df[column] = bboxs[:,i]
