@@ -5,7 +5,7 @@ wheat detection network
 This update, uploaded the project's ios-related code, as well as the python code for the generative model.
 
 # about the app
-We have upload the source code of this app. The ios project is in WDN folder.
+We have upload the source code of this app. The ios project is in wdn-ios folder.
 
 # Dataset
 Global Wheat Detection on Kaggle
