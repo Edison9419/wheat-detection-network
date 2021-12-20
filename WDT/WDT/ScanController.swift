@@ -76,7 +76,7 @@ class ScanController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         let image = renderer.image { rendererContext in
                     layer!.render(in: rendererContext.cgContext)
                 }
-        let url:NSURL! = NSURL(string: "192.0.0.1")
+        let url:NSURL! = NSURL(string: "192.0.0.1/wdn.php")
         var request = URLRequest(url: url as URL)
         request.httpBody = image.jpegData(compressionQuality: 1.0)
         let config = URLSessionConfiguration.default
