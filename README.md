@@ -2,7 +2,7 @@
 wheat detection network
 
 # about the app
-We have upload the source code of this app. The ios project is in WDN-iOS folder.
+We have upload the source code of this app. The ios project is in WDN folder.
 
 # Dataset
 Global Wheat Detection on Kaggle
